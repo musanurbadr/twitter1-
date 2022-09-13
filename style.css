@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 4px;
     font-family:  'Poppins', sans-serif;
 }
 
@@ -140,8 +140,8 @@ main {
 
 .main-feed {
     width: 50%;
-    border-left: 1px solid rbg(47,51,54);
-    border-right: 1px solid rbg(47,51,54)
+    border-left: 1px solid rgb(47,51,54);
+    border-right: 1px solid rgb(47,51,54);
 }
 
 .home-bar {
@@ -213,5 +213,23 @@ main {
 .new-tweet-actions ul li {
     margin-right: 12px;
     color: blueviolet;
+    cursor: pointer;
+}
+
+
+.new-tweet-actions .tweet-button {
+    width: 75px;
+    height: 35px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.feed-tweet {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    padding: 12px 16px 0 16px;
+    border: 1px solid rgb(47, 51, 54);
     cursor: pointer;
 }
