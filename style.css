@@ -253,8 +253,8 @@ main {
     font-size: 1.5rem;
 }
 
-.tweeter-details span {
-    font-weight: 700;
+.tweeter-details a {
+    font-weight: 600;
 }
 
 .tweeter-details span {
@@ -278,3 +278,17 @@ main {
     padding-right: 50px;
 }
 
+.side-feed {
+    width: 50%;
+    padding: 0 2%;
+}
+
+.search {
+    display: flex;
+    height: 55px;
+    max-width: 355px;
+    position: sticky;
+    top: 0;
+    padding-top: 5px;
+    background-color: black;
+}
